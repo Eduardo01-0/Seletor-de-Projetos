@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #006241;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: #004d33;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93");
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .banner h2 {
+            font-size: 45px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            color: #006241;
+            margin: 15px;
+        }
+
+        footer {
+            background-color: #006241;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background-color: #006241;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004d33;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Starbucks</h1><img width="96" height="96" src="https://img.icons8.com/fluency/96/starbucks.png" alt="starbucks"/>
+    <p>O café que conecta pessoas ao redor do mundo</p>
+</header>
+
+<nav>
+    <a href="#historia">História</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+
+<div class="banner">
+    <h2>Experimente novos sabores</h2>
+</div>
+
+
+<section id="historia">
+    <h2>A História da Starbucks</h2>
+    <br>
+    <p>
+        A Starbucks nasceu em 1971 em Seattle, nos Estados Unidos. A empresa se tornou uma das maiores redes de cafeterias do mundo,
+         oferecendo cafés especiais, bebidas personalizadas e experiências únicas.
+
+    </p>
+</section>
+
+
+<section id="produtos">
+
+    <h2>Produtos Populares</h2>
+    <br>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735">
+            <h3>Cappuccino</h3>
+            <p>Café espresso com leite vaporizado e espuma cremosa.</p>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699">
+            <h3>Frappuccino</h3>
+            <p>Bebida gelada com sabores variados e cobertura especial.</p>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13">
+            <h3>Café Tradicional</h3>
+            <p>Grãos selecionados para um sabor marcante.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contato">
+
+    <h2>Entre em contato conosco por: faleconosco@starbucks.com.br</h2>
+    <br>
+
+    <p>Visite uma loja Starbucks e descubra seu tipo de café favorito!</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14701.594127820415!2d-47.056762868671996!3d-22.898666803670082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf4ef29afd79%3A0x95ee16d4c260d354!2sStarbucks!5e0!3m2!1spt-BR!2sbr!4v1787837300272!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <br>
+
+    <button>Saiba Mais</button>
+
+</section>
+
+
+<footer>
+    <p>© 2026 Starbucks - Site desenvolvido por @Eduardohenrikea@gmail.com</p>
+</footer>
+
+
+</body>
+</html>
+
+
